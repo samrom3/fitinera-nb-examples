@@ -184,17 +184,15 @@ wheels = [
 
 [[package]]
 name = "fitinera"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
-    { name = "seaborn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ca/40/d2025f49594eb4ea026fae4b2474689000ddfffd131c8660dace5fae161d/fitinera-0.1.0.tar.gz", hash = "sha256:a8ca3f9d999c0a0f84b8b5f2d500c58b89b4d210b1b0e30540dc16377515897c", size = 11527, upload-time = "2026-01-01T19:34:55.737Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4f/a0/41618db052e1343c9c96013f3cf899e0d0c2bedb7e9b20512b3d0a629755/fitinera-0.1.1.tar.gz", hash = "sha256:d38edc77ed6a27fb99fc38089820de723f1305e277cef4ef07100b5936d72fc5", size = 12436, upload-time = "2026-02-06T22:23:47.436Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/13/51b9035b823916d310482b608075b949a8235237da7ef1efc96bcd370c3e/fitinera-0.1.0-py3-none-any.whl", hash = "sha256:209963463ac10734479a00155a000fab7bdd819657d9b379705bc8ae3bdaa1b6", size = 14835, upload-time = "2026-01-01T19:34:54.464Z" },
+    { url = "https://files.pythonhosted.org/packages/06/90/5b11a43e6b5c3d13280cb46aeeba32747027663030af00281bdc67f06d8c/fitinera-0.1.1-py3-none-any.whl", hash = "sha256:da7f27803384ce5bfb066698b5d987481245465fdcc6a678b9f36f88dc2a8d9d", size = 16163, upload-time = "2026-02-06T22:23:46.628Z" },
 ]
 
 [[package]]
@@ -205,6 +203,7 @@ dependencies = [
     { name = "fitinera" },
     { name = "matplotlib" },
     { name = "pandas" },
+    { name = "seaborn" },
 ]
 
 [package.dev-dependencies]
@@ -214,9 +213,10 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fitinera", specifier = ">=0.1.0" },
+    { name = "fitinera", specifier = ">=0.1.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
 [package.metadata.requires-dev]
